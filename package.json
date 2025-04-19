@@ -1,7 +1,7 @@
 {
-  "name": "miya_portofolia_homepage",
+  "name": "Kyuna_portofolia_homepage",
   "version": "0.0.1",
-  "description": "Miya's website",
+  "description": "Kyuna's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
@@ -19,12 +19,12 @@
     "@typescript-eslint/eslint-plugin": "^7.14.1",
     "@vercel/analytics": "^1.1.1",
     "framer-motion": "^10.16.4",
-    "i18next": "^23.11.5",
-    "next": "^14.1.1",
-    "next-i18next": "^15.3.0",
+    "i18next": "^23.14.0",
+    "next": "^13.5.6",
+    "next-i18next": "^15.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-i18next": "^14.1.2",
+    "react-i18next": "^15.0.1",
     "react-icons": "^4.11.0",
     "three": "^0.157.0"
   },

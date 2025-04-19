@@ -1,22 +1,22 @@
 import Head from 'next/head';
 import NavBar from '../navbar';
-import { Box, Container } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import Footer from '../footer';
 
 const Main = ({ children, router }) => {
   const meta = {
-    title: 'Miya',
-    description: "Miya's homepage",
-    author: 'Miya',
+    title: 'Kyuna',
+    description: "Kyuna's homepage",
+    author: 'Kyuna',
     twitter: {
-      title: 'Miya',
+      title: 'Kyuna',
       card: 'summary_large_image',
       site: '@m1or3n',
       creator: '@m1or3n',
     },
     og: {
-      site_name: 'Miya',
-      title: 'Miya',
+      site_name: 'Kyuna',
+      title: 'Kyuna',
       type: 'website',
     },
   };
@@ -36,15 +36,12 @@ const Main = ({ children, router }) => {
         <meta property="og:site_name" content={meta.og.site_name} />
         <meta name="og:title" content={meta.og.title} />
         <meta property="og:type" content={meta.og.type} />
-        <title>{meta.title} - Homepage</title>
+        <title>{meta.title} - ホームページ</title>
       </Head>
 
       <NavBar path={router.asPath} />
-
-      <Container maxW="container.md">
-        {children}
-        <Footer />
-      </Container>
+      {children}
+      <Footer />
     </Box>
   );
 };
